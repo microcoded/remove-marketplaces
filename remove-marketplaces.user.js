@@ -19,7 +19,7 @@
         { domains: ['bunnings.com.au'], param: 'productranges', value: '!Marketplace' },
         { domains: ['kogan.com'], param: 'deals_from', value: 'kogan' },
         { domains: ['dicksmith.com.au'], param: 'deals_from', value: 'dicksmith' },
-        { domains: ['woolworths.com.au'], param: 'filter', value: 'SoldBy(Woolworths)' }
+        { domains: ['woolworths.com.au'], param: 'isHideEverydayMarketProducts', value: 'true' }
     ];
 
     const url = new URL(window.location.href);
