@@ -1,5 +1,5 @@
-# remove-marketplaces
-Automatically hides _"marketplace"_ items on various Australian websites.
+# Remove Marketplaces
+Automatically hides _“marketplace”_ items on various Australian retailer websites.
 
 ## Installation Instructions
 - Install Tampermonkey for your browser (or another userscript manager).
