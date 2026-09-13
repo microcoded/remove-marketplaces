@@ -8,6 +8,7 @@
 // @match        *://*.kogan.com/*
 // @match        *://*.dicksmith.com.au/*
 // @match        *://*.woolworths.com.au/*
+// @match        *://*.kmart.com.au/*
 // @run-at       document-start
 // ==/UserScript==
 
@@ -19,7 +20,8 @@
         { domains: ['bunnings.com.au'], param: 'productranges', value: '!Marketplace' },
         { domains: ['kogan.com'], param: 'deals_from', value: 'kogan' },
         { domains: ['dicksmith.com.au'], param: 'deals_from', value: 'dicksmith' },
-        { domains: ['woolworths.com.au'], param: 'isHideEverydayMarketProducts', value: 'true' }
+        { domains: ['woolworths.com.au'], param: 'isHideEverydayMarketProducts', value: 'true' },
+        { domains: ['kmart.com.au'], params: { 'f.Shops': ['Kmart', 'Target'] } }
     ];
 
     const url = new URL(window.location.href);
